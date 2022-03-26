@@ -18,3 +18,56 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	color: rgb(152, 173, 166);
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	padding: 10px;
+	border-bottom: 1px solid rgb(204, 204, 204);
+	margin-bottom: 5px;
+}
+
+#necklace {
+	border: 5px solid rgb(152, 173, 166);
+}
+
+h2 {
+	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+
+p {
+	color:rgb(85, 85, 85);
+}
+
+P > a {
+	color: rgb(23, 131, 187);
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: 5px solid rgb(204, 204, 204);
+}
+
+a:hover {
+	color: rgb(111, 127, 122);
+	cursor: pointer;
+}
+
+P > a:hover {
+	color: rgb(23, 131, 187);
+	text-decoration: underline;
+}
+
+a > img:hover {
+	border: 5px solid rgb(111, 127, 122);
+}
+
+.copyright {
+	font-size: 0.8em;
+	text-align: right;
+}
